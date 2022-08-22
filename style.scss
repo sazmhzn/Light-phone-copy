@@ -1,38 +1,71 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    font-family: 'futura pt' sans-serif;
-    overflow-y: hidden;
+  min-height: 100vh;
+  font-family: "futura pt" sans-serif;
+  overflow-x: hidden;
 }
 
 header {
-    z-index: 1;
+  z-index: 1;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .section1 {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+
+  .image-changing-container {
     width: 100%;
-    z-index: 0;
+    min-height: 100vh;
 
     .light-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50% ,-50%);
+      background-image: url("https://images.ctfassets.net/tbduj203nkkk/5x1meX3eJUuEI4q2G4ySoE/de9ce7aade9cf5bac063231fbbdf3cf2/LightLogoWhite.png?w=210&fm=webp&q=85");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 210px;
+      height: 15%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 12;
     }
 
-    .down-arrow {
-        width: 24px;
-        height: 18px;
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .first-image {
+      background-image: url("https://images.ctfassets.net/tbduj203nkkk/3MpZnFzL8wmnD4LsWwypAg/450349999afe1fb2467d867963f00728/Export.00_00_00_00.Still003.jpg?w=1600&fm=webp&q=85");
+      background-attachment: fixed;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      position: absolute;
     }
+
+    .bg2 {
+        background-image: url('https://images.ctfassets.net/tbduj203nkkk/S27wYa69SmkUqiceW24iM/501239ba0c7ca1d78bbf669f8ea54195/LightBG__1_of_1_-138.jpg?w=1600&fm=webp&q=85');
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+
+        position: absolute;
+    }
+  }
+
+  .down-arrow {
+    width: 24px;
+    height: 18px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
