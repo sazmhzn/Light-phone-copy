@@ -41,8 +41,8 @@ header {
       z-index: 12;
     }
 
-    .first-image {
-      background-image: url("https://images.ctfassets.net/tbduj203nkkk/3MpZnFzL8wmnD4LsWwypAg/450349999afe1fb2467d867963f00728/Export.00_00_00_00.Still003.jpg?w=1600&fm=webp&q=85");
+    .bg1,
+    .bg2 {
       background-attachment: fixed;
       width: 100%;
       height: 100%;
@@ -50,13 +50,20 @@ header {
       position: absolute;
     }
 
-    .bg2 {
-        background-image: url('https://images.ctfassets.net/tbduj203nkkk/S27wYa69SmkUqiceW24iM/501239ba0c7ca1d78bbf669f8ea54195/LightBG__1_of_1_-138.jpg?w=1600&fm=webp&q=85');
-        width: 100%;
-        height: 100%;
-        background-size: cover;
+    .bg1 {
+      background-image: url("https://images.ctfassets.net/tbduj203nkkk/3MpZnFzL8wmnD4LsWwypAg/450349999afe1fb2467d867963f00728/Export.00_00_00_00.Still003.jpg?w=1600&fm=webp&q=85");
+    }
 
-        position: absolute;
+    .bg2 {
+      background-image: url("https://images.ctfassets.net/tbduj203nkkk/S27wYa69SmkUqiceW24iM/501239ba0c7ca1d78bbf669f8ea54195/LightBG__1_of_1_-138.jpg?w=1600&fm=webp&q=85");
+     
+    }
+
+    .title {
+        width: 18ch;
+        font-weight: 700;
+        font-size: 48px;
+        z-index: 12;
     }
   }
 
