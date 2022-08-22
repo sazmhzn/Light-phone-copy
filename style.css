@@ -7,6 +7,7 @@
 body {
   min-height: 100vh;
   font-family: "futura pt" sans-serif;
+  overflow-y: hidden;
 }
 
 header {
@@ -32,4 +33,4 @@ header {
   bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-}/*# sourceMappingURL=style.css.map */
+}
