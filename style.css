@@ -17,6 +17,10 @@ header a {
   text-decoration: none;
 }
 
+section {
+  min-height: 100vh;
+}
+
 .section1 {
   position: relative;
   height: 100vh;
@@ -79,4 +83,12 @@ header a {
   bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.black-bg {
+  min-height: 100vh;
+  background-color: rgb(23, 22, 20);
+}
+.black-bg .description {
+  font-size: 24px;
 }
