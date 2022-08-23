@@ -49,7 +49,8 @@ section {
 
     .bg1,
     .bg2,
-    .bg3 {
+    .bg3,
+    .bg4 {
       background-attachment: fixed;
       width: 100%;
       height: 100%;
@@ -67,6 +68,12 @@ section {
 
     .bg3 {
         background-image: url('https://images.ctfassets.net/tbduj203nkkk/73n6XQ9WXeYhjwECzyivfz/1378dd3a31cae41bce83eb883f75a971/000036430035.jpg?w=1600&fm=webp&q=85');
+    }
+
+    .bg4 {
+      background-image: url('https://images.ctfassets.net/tbduj203nkkk/3ZAYyWgk95A2PRRQes7BF1/13e2db378af3336e8c47d2af262d1995/Texting.jpg?w=1600&fm=webp&q=85');
+      width: 100%;
+      min-height: 100vh;
     }
 
     .title {
