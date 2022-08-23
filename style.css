@@ -90,5 +90,6 @@ section {
   background-color: rgb(23, 22, 20);
 }
 .black-bg .description {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 600;
 }
