@@ -73,7 +73,10 @@ section {
     .bg4 {
       background-image: url('https://images.ctfassets.net/tbduj203nkkk/3ZAYyWgk95A2PRRQes7BF1/13e2db378af3336e8c47d2af262d1995/Texting.jpg?w=1600&fm=webp&q=85');
       width: 100%;
-      min-height: 100vh;
+      min-height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     .title {
