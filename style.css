@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -20,12 +21,17 @@ header a {
 .bg1,
 .bg2,
 .bg3,
-.bg4 {
+.bg4,
+.bg5,
+.bg6 {
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
   background-size: cover;
   position: absolute;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bg1 {
@@ -53,9 +59,15 @@ header a {
   background-image: url("https://images.ctfassets.net/tbduj203nkkk/5Fg9qrY5gTMvUqvCmiYp9N/63e25c06f54d9995c6d65eda0f81042b/AThoughtfulInterfaceCoverWebsite.jpg?w=1600&fm=webp&q=85");
   width: 100%;
   min-height: 100vh;
+  background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.bg6 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3A1vCPnIRFhvm0bNW3xY53/5de7027ef44e5fc8fe510b3afd5e079b/Music.jpg?w=1600&fm=webp&q=85");
+  width: 100%;
 }
 
 section {
@@ -127,4 +139,12 @@ section {
 }
 .white-bg .description > * {
   color: black;
+}
+
+element.style {
+  background-color: white;
+  background-image: url(//images.ctfassets.net/tbduj203nkkk/3A1vCPnIRFhvm0bNW3xY53/5de7027…/Music.jpg?w=1600&fm=webp&q=85);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }/*# sourceMappingURL=style.css.map */
