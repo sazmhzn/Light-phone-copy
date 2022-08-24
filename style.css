@@ -17,6 +17,47 @@ header a {
   text-decoration: none;
 }
 
+.bg1,
+.bg2,
+.bg3,
+.bg4 {
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+}
+
+.bg1 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3MpZnFzL8wmnD4LsWwypAg/450349999afe1fb2467d867963f00728/Export.00_00_00_00.Still003.jpg?w=1600&fm=webp&q=85");
+}
+
+.bg2 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/S27wYa69SmkUqiceW24iM/501239ba0c7ca1d78bbf669f8ea54195/LightBG__1_of_1_-138.jpg?w=1600&fm=webp&q=85");
+}
+
+.bg3 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/73n6XQ9WXeYhjwECzyivfz/1378dd3a31cae41bce83eb883f75a971/000036430035.jpg?w=1600&fm=webp&q=85");
+}
+
+.bg4 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3ZAYyWgk95A2PRRQes7BF1/13e2db378af3336e8c47d2af262d1995/Texting.jpg?w=1600&fm=webp&q=85");
+  width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg5 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/5Fg9qrY5gTMvUqvCmiYp9N/63e25c06f54d9995c6d65eda0f81042b/AThoughtfulInterfaceCoverWebsite.jpg?w=1600&fm=webp&q=85");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 section {
   min-height: 100vh;
 }
@@ -43,33 +84,6 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 12;
-}
-.section1 .image-changing-container .bg1,
-.section1 .image-changing-container .bg2,
-.section1 .image-changing-container .bg3,
-.section1 .image-changing-container .bg4 {
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  position: absolute;
-}
-.section1 .image-changing-container .bg1 {
-  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3MpZnFzL8wmnD4LsWwypAg/450349999afe1fb2467d867963f00728/Export.00_00_00_00.Still003.jpg?w=1600&fm=webp&q=85");
-}
-.section1 .image-changing-container .bg2 {
-  background-image: url("https://images.ctfassets.net/tbduj203nkkk/S27wYa69SmkUqiceW24iM/501239ba0c7ca1d78bbf669f8ea54195/LightBG__1_of_1_-138.jpg?w=1600&fm=webp&q=85");
-}
-.section1 .image-changing-container .bg3 {
-  background-image: url("https://images.ctfassets.net/tbduj203nkkk/73n6XQ9WXeYhjwECzyivfz/1378dd3a31cae41bce83eb883f75a971/000036430035.jpg?w=1600&fm=webp&q=85");
-}
-.section1 .image-changing-container .bg4 {
-  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3ZAYyWgk95A2PRRQes7BF1/13e2db378af3336e8c47d2af262d1995/Texting.jpg?w=1600&fm=webp&q=85");
-  width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .section1 .image-changing-container .title {
   width: 18ch;
@@ -101,4 +115,16 @@ section {
 .black-bg .description {
   font-size: 20px;
   font-weight: 600;
+}
+
+.white-bg {
+  min-height: 100vh;
+  background-color: rgb(198, 197, 193);
+}
+.white-bg .description {
+  font-size: 20px;
+  font-weight: 600;
+}
+.white-bg .description > * {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
