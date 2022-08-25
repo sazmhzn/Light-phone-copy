@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "futura" sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  z-index: 1;
+}
+header a {
+  text-decoration: none;
+}
+
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5,
+.bg6,
+.bg7 {
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg1 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3MpZnFzL8wmnD4LsWwypAg/450349999afe1fb2467d867963f00728/Export.00_00_00_00.Still003.jpg?w=1600&fm=webp&q=85");
+}
+
+.bg2 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/S27wYa69SmkUqiceW24iM/501239ba0c7ca1d78bbf669f8ea54195/LightBG__1_of_1_-138.jpg?w=1600&fm=webp&q=85");
+}
+
+.bg3 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/73n6XQ9WXeYhjwECzyivfz/1378dd3a31cae41bce83eb883f75a971/000036430035.jpg?w=1600&fm=webp&q=85");
+}
+
+.bg4 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3ZAYyWgk95A2PRRQes7BF1/13e2db378af3336e8c47d2af262d1995/Texting.jpg?w=1600&fm=webp&q=85");
+  width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg5 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/5Fg9qrY5gTMvUqvCmiYp9N/63e25c06f54d9995c6d65eda0f81042b/AThoughtfulInterfaceCoverWebsite.jpg?w=1600&fm=webp&q=85");
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg6 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3A1vCPnIRFhvm0bNW3xY53/5de7027ef44e5fc8fe510b3afd5e079b/Music.jpg?w=1600&fm=webp&q=85");
+  width: 100%;
+}
+
+.bg7 {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/3byiHESWiVGwydqn3fpNUn/35aa5a679e1aa4a3a95b2f2609b59266/FAQbg2.jpg?w=1600&fm=webp&q=85");
+  width: 100%;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.section1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+.section1 .image-changing-container {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+.section1 .image-changing-container .light-image {
+  background-image: url("https://images.ctfassets.net/tbduj203nkkk/5x1meX3eJUuEI4q2G4ySoE/de9ce7aade9cf5bac063231fbbdf3cf2/LightLogoWhite.png?w=210&fm=webp&q=85");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 210px;
+  height: 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 12;
+}
+.section1 .image-changing-container .title {
+  width: 18ch;
+  font-weight: 700;
+  font-size: 48px;
+  z-index: 12;
+}
+.section1 .image-changing-container .play-button {
+  background-image: url("https://www.thelightphone.com/assets/images/play-button-white.svg");
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 15%;
+  cursor: pointer;
+  z-index: 12;
+}
+.section1 .down-arrow {
+  width: 24px;
+  height: 18px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.black-bg {
+  min-height: 100vh;
+  background-color: rgb(23, 22, 20);
+}
+.black-bg .description {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.white-bg {
+  min-height: 100vh;
+  background-color: rgb(198, 197, 193);
+}
+.white-bg .description > * {
+  color: black;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.short-section .pure-section {
+  min-height: 70vh;
+}
+
+.text-box {
+  border: 3px solid white;
+  font-size: 20px;
+  z-index: 1;
+}
+.text-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.text-box::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -12;
+}
+
+.text-box:hover::before {
+  transition: 0.5s;
+  opacity: 1;
+  background-color: white;
+}
+
+.text-box:hover a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
