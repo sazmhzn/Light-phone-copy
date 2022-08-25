@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  font-family: "futura pt" sans-serif;
+  font-family: "futura" sans-serif;
   overflow-x: hidden;
   
 }
@@ -25,7 +25,8 @@ header {
 .bg3,
 .bg4,
 .bg5,
-.bg6 {
+.bg6,
+.bg7 {
   background-attachment: fixed;
   width: 100%;
   background-size: cover;
@@ -69,6 +70,11 @@ header {
   background-image: url('https://images.ctfassets.net/tbduj203nkkk/3A1vCPnIRFhvm0bNW3xY53/5de7027ef44e5fc8fe510b3afd5e079b/Music.jpg?w=1600&fm=webp&q=85');
   width: 100%;
  
+}
+
+.bg7 {
+  background-image: url('https://images.ctfassets.net/tbduj203nkkk/3byiHESWiVGwydqn3fpNUn/35aa5a679e1aa4a3a95b2f2609b59266/FAQbg2.jpg?w=1600&fm=webp&q=85');
+  width: 100%;
 }
 
 section {
@@ -141,10 +147,7 @@ section {
   min-height: 100vh;
   background-color: rgb(198, 197, 193);
 
-  .description {
-    font-size: 20px;
-    font-weight: 600;
-  }
+  
 
   .description > * {
     color: black;
@@ -152,12 +155,48 @@ section {
   }
 }
 
-element.style {
-  background-color: white;
-  background-image: url(//images.ctfassets.net/tbduj203nkkk/3A1vCPnIRFhvm0bNW3xY53/5de7027…/Music.jpg?w=1600&fm=webp&q=85);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.description {
+  font-size: 20px;
+  font-weight: 600;
 }
 
+.short-section {
+ .pure-section {
+  min-height: 70vh;
+ }
+}
 
+.text-box {
+  border: 3px solid white;
+  font-size: 20px;
+  z-index: 1;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.text-box::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -12;
+  
+}
+
+.text-box:hover::before {
+  transition: 0.5s;
+  opacity: 1;
+  background-color: white;
+}
+
+.text-box:hover a{
+  color: black;
+}
