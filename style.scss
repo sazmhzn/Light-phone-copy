@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  font-family: "futura" sans-serif;
+  font-family: "futura pt" sans-serif;
   overflow-x: hidden;
   
 }
@@ -166,6 +166,11 @@ header {
  .pure-section {
   min-height: 81vh;
  }
+
+.hero > p {
+  line-height: 1.5;
+}
+
 }
 
 .text-box {
@@ -173,7 +178,6 @@ header {
   font-size: 20px;
   cursor: pointer;
   position: relative;
-
   z-index: 1;
 
   a {
@@ -184,10 +188,9 @@ header {
 
 .text-box::before {
   content: "";
+  opacity: 0;
   width: 100%;
   height: 100%;
-  background-color: aqua;
-  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
