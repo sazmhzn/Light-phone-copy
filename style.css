@@ -75,10 +75,6 @@ header a {
   width: 100%;
 }
 
-section {
-  min-height: 100vh;
-}
-
 .section1 {
   position: relative;
   height: 100vh;
@@ -147,6 +143,9 @@ section {
   font-weight: 600;
 }
 
+.short-section {
+  background-color: black;
+}
 .short-section .pure-section {
   min-height: 70vh;
 }
