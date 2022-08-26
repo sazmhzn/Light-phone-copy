@@ -34,6 +34,7 @@ header a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: -1;
 }
 
 .bg1 {
@@ -199,4 +200,27 @@ header a {
 
 .text-box:hover a {
   color: black;
+}
+
+footer {
+  min-height: 97vh;
+  background-color: #c6c5c1;
+  padding-top: 20px;
+  z-index: 12;
+}
+footer .f-title {
+  background-color: #c6c5c1;
+}
+footer .f-title ul {
+  list-style: none;
+  gap: 50px;
+}
+footer .f-title ul li {
+  padding: 10px;
+}
+footer .f-title ul li a {
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
 }
