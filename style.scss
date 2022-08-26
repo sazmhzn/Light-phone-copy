@@ -163,15 +163,17 @@ header {
 .short-section {
   background-color: black;
 
-  
  .pure-section {
-  min-height: 70vh;
+  min-height: 81vh;
  }
 }
 
 .text-box {
   border: 3px solid white;
   font-size: 20px;
+  cursor: pointer;
+  position: relative;
+
   z-index: 1;
 
   a {
