@@ -115,6 +115,9 @@ header a {
   font-size: 48px;
   z-index: 12;
 }
+.section1 .image-changing-container .title p {
+  line-height: 0.7;
+}
 .section1 .image-changing-container .play-button {
   background-image: url("https://www.thelightphone.com/assets/images/play-button-white.svg");
   background-repeat: no-repeat;

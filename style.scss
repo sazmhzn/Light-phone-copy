@@ -119,6 +119,10 @@ header {
         font-weight: 700;
         font-size: 48px;
         z-index: 12;
+
+        p {
+          line-height: 0.7;
+        }
     }
 
     .play-button {
