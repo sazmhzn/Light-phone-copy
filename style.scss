@@ -26,7 +26,8 @@ header {
 .bg4,
 .bg5,
 .bg6,
-.bg7 {
+.bg7,
+.bg8 {
   background-attachment: fixed;
   width: 100%;
   background-size: cover;
@@ -74,6 +75,10 @@ header {
 
 .bg7 {
   background-image: url('https://images.ctfassets.net/tbduj203nkkk/3byiHESWiVGwydqn3fpNUn/35aa5a679e1aa4a3a95b2f2609b59266/FAQbg2.jpg?w=1600&fm=webp&q=85');
+  width: 100%;
+}
+.bg8 {
+  background-image: url('https://images.ctfassets.net/tbduj203nkkk/4nLtsMevzJv6KQWdNaaimj/f8de1b0a615eb090c8f20824daed95df/desertroad2.jpg?w=1600&fm=webp&q=85');
   width: 100%;
 }
 
