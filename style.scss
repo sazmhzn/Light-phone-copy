@@ -27,7 +27,8 @@ header {
 .bg5,
 .bg6,
 .bg7,
-.bg8 {
+.bg8,
+.bg9 {
   background-attachment: fixed;
   width: 100%;
   background-size: cover;
@@ -81,6 +82,10 @@ header {
   background-image: url('https://images.ctfassets.net/tbduj203nkkk/4nLtsMevzJv6KQWdNaaimj/f8de1b0a615eb090c8f20824daed95df/desertroad2.jpg?w=1600&fm=webp&q=85');
   width: 100%;
 }
+.bg9 {
+  background-image: url('https://images.ctfassets.net/tbduj203nkkk/3oT1proxeoo6cgUEYuAUYe/1dda2703f869a8dff7fa909ff9e77761/LightBG__1_of_1_-152.jpg?w=1600&fm=webp&q=85');
+  width: 100%;
+}
 
 // section {
 //   min-height: 100vh;
@@ -111,7 +116,6 @@ header {
     }
 
     .title {
-        width: 18ch;
         font-weight: 700;
         font-size: 48px;
         z-index: 12;
