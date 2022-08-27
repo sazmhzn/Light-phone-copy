@@ -226,5 +226,30 @@ footer .f-title ul li a {
 }
 
 form {
+  padding: 40px;
+  gap: 40px;
+}
+form input[type=email] {
+  width: 30%;
+  border: white;
+  background-color: transparent;
+  border-bottom: 1px solid white;
   padding: 10px;
+}
+form ::-moz-placeholder {
+  color: white;
+  font-size: 20px;
+}
+form :-ms-input-placeholder {
+  color: white;
+  font-size: 20px;
+}
+form ::placeholder {
+  color: white;
+  font-size: 20px;
+}
+form button {
+  background-color: transparent;
+  color: white;
+  padding: 1px 10px;
 }

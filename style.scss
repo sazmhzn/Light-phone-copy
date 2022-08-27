@@ -251,5 +251,25 @@ footer {
 }
 
 form {
-  padding: 10px;
+  padding: 40px;
+  gap: 40px;
+
+  input[type="email"] {
+    width: 30%;
+    border: white;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    padding: 10px;
+  }
+
+  ::placeholder {
+    color: white;
+    font-size: 20px;
+  }
+
+  button {
+    background-color: transparent;
+    color: white;
+    padding: 1px 10px;
+  }
 }
