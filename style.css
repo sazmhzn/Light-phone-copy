@@ -208,6 +208,9 @@ footer {
   padding-top: 20px;
   z-index: 12;
 }
+footer .wrapper > * {
+  margin: 25px 0;
+}
 footer .f-title {
   background-color: #c6c5c1;
 }
@@ -223,6 +226,16 @@ footer .f-title ul li a {
   font-size: 24px;
   text-decoration: none;
   color: white;
+}
+footer .social-container {
+  width: 100%;
+  padding: 30px;
+  gap: 20px;
+}
+footer .social-container .social-image {
+  width: 30px;
+  height: 30px;
+  background-color: white;
 }
 
 form {

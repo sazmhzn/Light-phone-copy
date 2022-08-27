@@ -230,6 +230,11 @@ footer {
 
   z-index: 12;
 
+
+  .wrapper > * {
+    margin: 25px 0;
+  }
+
   .f-title {
     background-color: #c6c5c1;
     ul {
@@ -248,7 +253,20 @@ footer {
       }
     }
   }
+
+  .social-container {
+    width: 100%;
+    padding: 30px;
+    gap: 20px;
+
+    .social-image {
+      width: 30px;
+      height: 30px;
+      background-color: white;
+    }
+  }
 }
+
 
 form {
   padding: 40px;
