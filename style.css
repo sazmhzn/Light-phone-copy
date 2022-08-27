@@ -224,3 +224,7 @@ footer .f-title ul li a {
   text-decoration: none;
   color: white;
 }
+
+form {
+  padding: 10px;
+}
