@@ -153,9 +153,15 @@ header a {
   color: black;
 }
 
-.description {
+.description,
+.description2 {
   font-size: 20px;
   font-weight: 600;
+}
+
+.description2 {
+  letter-spacing: 1.2px;
+  opacity: 0.5;
 }
 
 .short-section {
@@ -211,21 +217,31 @@ footer {
 footer .wrapper > * {
   margin: 25px 0;
 }
-footer .f-title {
+footer .f-title,
+footer .f-footer {
   background-color: #c6c5c1;
 }
-footer .f-title ul {
+footer .f-title ul,
+footer .f-footer ul {
   list-style: none;
   gap: 50px;
 }
-footer .f-title ul li {
+footer .f-title ul li,
+footer .f-footer ul li {
   padding: 10px;
 }
-footer .f-title ul li a {
+footer .f-title ul li a,
+footer .f-footer ul li a {
   font-weight: 600;
   font-size: 24px;
   text-decoration: none;
   color: white;
+}
+footer .f-footer ul {
+  gap: 50px;
+}
+footer .f-footer ul li a {
+  font-size: 17px;
 }
 footer .social-container {
   width: 100%;

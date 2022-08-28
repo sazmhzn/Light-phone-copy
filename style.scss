@@ -169,9 +169,15 @@ header {
   }
 }
 
-.description {
+.description,
+.description2 {
   font-size: 20px;
   font-weight: 600;
+}
+
+.description2 {
+  letter-spacing: 1.2px;
+  opacity: .5;
 }
 
 .short-section {
@@ -235,7 +241,8 @@ footer {
     margin: 25px 0;
   }
 
-  .f-title {
+  .f-title,
+  .f-footer{
     background-color: #c6c5c1;
     ul {
       list-style: none;
@@ -254,6 +261,14 @@ footer {
     }
   }
 
+  .f-footer {
+    ul {
+      gap: 50px;
+      li a {
+        font-size: 17px;
+      }
+    }
+  }
   .social-container {
     width: 100%;
     padding: 30px;
