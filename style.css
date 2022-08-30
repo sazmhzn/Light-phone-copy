@@ -17,13 +17,28 @@ body {
   min-height: 100vh;
   width: 100%;
 }
+.menu-section .cross-bar {
+  padding: 20px;
+  right: 10px;
+}
+.menu-section .menu-list {
+  height: 100vh;
+}
 .menu-section .menu-list ul {
   list-style-type: none;
+}
+.menu-section .menu-list ul li {
+  margin-bottom: 40px;
+  text-align: center;
 }
 .menu-section .menu-list ul li a {
   text-decoration: none;
   color: white;
-  font-size: 32px;
+  font-size: 38px;
+  font-weight: 600;
+}
+.menu-section .menu-list ul li a #active {
+  color: #a9a8a4;
 }
 
 header {
