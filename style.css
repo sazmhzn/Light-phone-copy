@@ -21,6 +21,9 @@ body {
   padding: 20px;
   right: 10px;
 }
+.menu-section #active1 {
+  color: #a9a8a4;
+}
 .menu-section .menu-list {
   height: 100vh;
 }
@@ -36,9 +39,6 @@ body {
   color: white;
   font-size: 38px;
   font-weight: 600;
-}
-.menu-section .menu-list ul li a #active {
-  color: #a9a8a4;
 }
 
 header {
