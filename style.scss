@@ -18,7 +18,17 @@ body {
   width: 100%;
 
   .menu-list {
-    
+    ul {
+      list-style-type: none;
+
+      li {
+        a {
+          text-decoration: none;
+          color:  white;
+          font-size: 32px;
+        }
+      }
+    }
   }
 }
 
