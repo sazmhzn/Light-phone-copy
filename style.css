@@ -17,9 +17,10 @@ body {
   min-height: 100vh;
   width: 100%;
 }
-.menu-section .cross-bar {
+.menu-section #cross-bar {
   padding: 20px;
   right: 10px;
+  cursor: pointer;
 }
 .menu-section #active1 {
   color: #a9a8a4;
@@ -316,4 +317,4 @@ form button {
   background-color: transparent;
   color: white;
   padding: 1px 10px;
-}
+}/*# sourceMappingURL=style.css.map */
